@@ -1,0 +1,30 @@
+---
+layout: base
+---
+
+<div id="content">
+  <header class="container">
+    <div class="row">
+      <div id="navbar" class="twelve columns">
+        <div class="bold" id="title" style="white-space: nowrap"><a href="/">futureproof</a></div>
+        {% for item in site.data.nav %}
+            <a href="{{ item.link }}">
+          <div {% if page.url == item.link %}class="current_page"{% endif %}>
+              {{ item.text }}
+          </div>
+            </a>
+        {% endfor %}
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="container">
+    <div class="row">
+      <div class="twelve columns small" style="text-align: center;">This work licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a></div>
+    </div>
+  </footer>
+</div>

@@ -1,0 +1,19 @@
+
+$black:  #1c1c1c;
+$white:  #ddd;
+$gray1: darken($white, 8%);
+$gray2: darken($white, 16%); 
+$gray3: darken($white, 32%); 
+$gray4: darken($white, 48%); 
+$gray5: darken($white, 64%); 
+$accent: #e1815f;
+
+$roman: 300;
+$bold: 600;
+$lineheight: 1.4rem;
+
+$typecolor: $black;
+$fontstack: "Iosevka Aile Web", Helvetica Neue, Helvetica, sans-serif;
+$titlestack: $fontstack;
+$fontweight: $roman;
+$titleweight: $bold;

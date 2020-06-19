@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Iosevka Aile Web';
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/assets/fonts/woff2/iosevka-aile-light.woff2') format('woff2'), url('woff/iosevka-aile-light.woff') format('woff'), url('ttf/iosevka-aile-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka Aile Web';
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: italic;
+  src: url('/assets/fonts/woff2/iosevka-aile-lightitalic.woff2') format('woff2'), url('woff/iosevka-aile-lightitalic.woff') format('woff'), url('ttf/iosevka-aile-lightitalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka Aile Web';
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/assets/fonts/woff2/iosevka-aile-semibold.woff2') format('woff2'), url('woff/iosevka-aile-semibold.woff') format('woff'), url('ttf/iosevka-aile-semibold.ttf') format('truetype');
+}

@@ -1,0 +1,6 @@
+console.log("ERROR: external override, forcing reboot")
+console.log(".")
+console.log("..")
+console.log("...")
+console.log("███    ██  █████  ███████  █████  \n████   ██ ██   ██ ██      ██   ██ \n██ ██  ██ ███████ ███████ ███████ \n██  ██ ██ ██   ██      ██ ██   ██ \n██   ████ ██   ██ ███████ ██   ██ ")
+console.log("Hephaestus OS VERSION 4.17.19820625")

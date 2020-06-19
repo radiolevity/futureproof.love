@@ -1,0 +1,131 @@
+---
+---
+
+@import '_palette';
+@import '_typography';
+
+$container_width: 32rem;
+@import '_glimmer';
+
+
+// Base styles
+
+::selection {
+  background-color: $gray4;
+}
+
+html, body {
+  font-family: $fontstack;
+  color: $typecolor;
+  height: 100%;
+  background-color: $black;
+  color: $white;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  flex: 0 0 0;
+  margin-top: 2rem;
+}
+
+#title a {
+  color: $white;
+  text-decoration: none;
+  &:hover {
+    color: $gray1;
+  }
+}
+
+#navbar {
+  display: flex;
+  div {
+    margin-right: 2rem;
+    padding-left: 0.02rem;
+  }
+}
+.current_page {
+  color: $gray1;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  color: $gray3;
+  flex-shrink: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $titlestack;
+  margin-bottom: 0.8rem;
+  line-height: $lineheight;
+}
+
+p {
+  margin: 0.6rem 0;
+  line-height: $lineheight;
+}
+
+a {
+  color: $gray3;
+  text-decoration: none;
+  &:hover {
+    color: $gray2;
+  }
+}
+
+main a, footer a {
+  text-decoration: underline;
+}
+
+// Utility classes
+
+.roman       { font-weight: $roman; }
+.bold        { font-weight: $bold; }
+.italics     { font-style: italic; }
+.nounderline { text-decoration: none; }
+.underline   { text-decoration: underline; }
+.small       { font-size: .8rem; }
+.large       { font-size: 2rem; }
+.black       { color: $black; }
+.gray        { color: $gray2; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
