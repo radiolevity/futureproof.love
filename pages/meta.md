@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 name: Meta
 title: Meta
 permalink: /meta

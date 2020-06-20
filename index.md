@@ -6,5 +6,5 @@ permalink: /
 ---
 
 {% for post in site.posts limit:1 %}
-  <img class="comic" src="/assets/comics/{{ post.comic_id }}.png" />
+  <img class="comic" src="/assets/comics/{{ post.title }}.png" />
 {% endfor %}
