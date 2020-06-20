@@ -1,6 +1,7 @@
 ---
 layout: default
-title: futureproof - Sketchbook
+name: Sketchbook
+title: Sketchbook
 permalink: /sketchbook
 ---
 

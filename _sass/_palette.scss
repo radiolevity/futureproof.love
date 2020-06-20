@@ -1,15 +1,17 @@
 
 $black:  #1c1c1c;
 $white:  #ddd;
-$gray1: darken($white, 8%);
-$gray2: darken($white, 16%); 
-$gray3: darken($white, 32%); 
-$gray4: darken($white, 48%); 
-$gray5: darken($white, 64%); 
+$gray1: darken($white, 16%);
+$gray2: darken($white, 32%); 
+$gray3: darken($white, 48%); 
+$gray4: lighten($black, 16%); 
+$gray5: lighten($black, 8%);
 $accent: #e1815f;
 
 $roman: 300;
 $bold: 600;
+
+$fontsize: 1rem;
 $lineheight: 1.4rem;
 
 $typecolor: $black;

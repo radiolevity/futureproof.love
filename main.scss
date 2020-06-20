@@ -4,14 +4,13 @@
 @import '_palette';
 @import '_typography';
 
-$container_width: 32rem;
 @import '_glimmer';
 
 
 // Base styles
 
 ::selection {
-  background-color: $gray4;
+  background-color: $gray5;
 }
 
 html, body {
@@ -37,6 +36,12 @@ header {
   margin-top: 2rem;
 }
 
+@media (max-width: 512px) {
+  header {
+    margin-top: 1rem;
+  }
+}
+
 #title a {
   color: $white;
   text-decoration: none;
@@ -47,13 +52,24 @@ header {
 
 #navbar {
   display: flex;
+  flex-direction: row;
   div {
     margin-right: 2rem;
     padding-left: 0.02rem;
   }
 }
+@media (max-width: 512px) {
+  #navbar {
+    flex-direction: column;
+    div {
+      padding-bottom: 1rem;
+    }
+  }
+}
+
 .current_page {
   color: $gray1;
+  font-weight: $bold;
 }
 
 main {
@@ -74,18 +90,44 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin: 0.6rem 0;
   line-height: $lineheight;
+  font-size: $fontsize;
 }
 
 a {
-  color: $gray3;
+  color: $gray2;
   text-decoration: none;
   &:hover {
-    color: $gray2;
+    color: $gray1;
   }
 }
 
 main a, footer a {
   text-decoration: underline;
+}
+
+.comic-nav-button {
+  padding: 0.2rem 1rem;
+  margin: 0 0.2rem;
+  border-radius: 0.6rem;
+  color: $white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  &:hover {
+    color: $white;
+    background-color: $gray5;
+  }
+  &.disabled {
+    color: $gray3;
+    cursor: default;
+    &:hover {
+      background-color: rgba(0,0,0,0);
+    }
+  }
+}
+
+.comic {
+  width: 100%;
+  max-width: 600px;
 }
 
 // Utility classes
@@ -98,34 +140,10 @@ main a, footer a {
 .small       { font-size: .8rem; }
 .large       { font-size: 2rem; }
 .black       { color: $black; }
-.gray        { color: $gray2; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.white       { color: $white; }
+.gray1       { color: $gray1; }
+.gray2       { color: $gray2; }
+.gray3       { color: $gray3; }
+.gray4       { color: $gray4; }
+.gray5       { color: $gray5; }
+.centered    { text-align: center; }

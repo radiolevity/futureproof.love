@@ -1,6 +1,7 @@
 ---
-layout: page
-title: futureproof - Meta
+layout: default
+name: Meta
+title: Meta
 permalink: /meta
 ---
 
@@ -12,4 +13,4 @@ I draw it with [Procreate](https://procreate.art/) on [iPad&nbsp;Pro](https://ww
 
 The typeface used across the site is the gorgeous [Iosevka&nbsp;Aile](https://typeof.net/Iosevka/).
 
-The site is built using [Jekyll](https://jekyllrb.com/) and [Glimmer](#), and hosted by [GitHub&nbsp;Pages](https://pages.github.com/)
+The site is built using [Jekyll](https://jekyllrb.com/) and hosted by [GitHub&nbsp;Pages](https://pages.github.com/)

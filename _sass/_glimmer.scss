@@ -1,11 +1,15 @@
 // === glimmer.css ===
 
 :root {
-  --container-width: 32rem;
+  --container-width: 800px;
+  --font-size: 13pt;
+}
+
+html {
+  font-size: var(--font-size);
 }
 
 // columns
-
 .container {
   width: 100%;
   max-width: var(--container-width);
@@ -15,10 +19,10 @@
 
 .row {
   width: 100%;
-  padding: 0.6rem;
-  margin: 0 -1.2rem;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .column, .columns {
@@ -28,24 +32,25 @@
   width: 100%;
 }
 
-.one     { width: calc(100%*1/12);  }
-.two     { width: calc(100%*2/12);  }
-.three   { width: calc(100%*3/12);  }
-.four    { width: calc(100%*4/12);  }
-.five    { width: calc(100%*5/12);  }
-.six     { width: calc(100%*6/12);  }
-.seven   { width: calc(100%*7/12);  }
-.eight   { width: calc(100%*8/12);  }
-.nine    { width: calc(100%*9/12);  }
-.ten     { width: calc(100%*10/12); }
-.eleven  { width: calc(100%*11/12); }
-.twelve  { width: calc(100%*12/12); }
+@media (min-width: 513px) {
+  .one     { width: calc(100%*1/12);  }
+  .two     { width: calc(100%*2/12);  }
+  .three   { width: calc(100%*3/12);  }
+  .four    { width: calc(100%*4/12);  }
+  .five    { width: calc(100%*5/12);  }
+  .six     { width: calc(100%*6/12);  }
+  .seven   { width: calc(100%*7/12);  }
+  .eight   { width: calc(100%*8/12);  }
+  .nine    { width: calc(100%*9/12);  }
+  .ten     { width: calc(100%*10/12); }
+  .eleven  { width: calc(100%*11/12); }
+  .twelve  { width: calc(100%*12/12); }
 
-// images
-
-img {
-  @extend .image_full;
+  .row {
+    flex-direction: row;
+  }
 }
+// images
 
 .image {
   width: 100%;
