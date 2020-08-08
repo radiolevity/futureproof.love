@@ -7,7 +7,7 @@ permalink: /meta
 
 # Meta
 
-FUTUREPROOF is a webcomic about life after life.
+FUTUREPROOF is a webcomic about a robot and her friends.
 
 I draw it with [Procreate](https://procreate.art/) on [iPad&nbsp;Pro](https://www.apple.com/ipad-pro/).
 
